@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E2B4F281F90CA9F00681874 /* CGGradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B4F271F90CA9F00681874 /* CGGradientViewController.m */; };
+		2E2B4F2B1F90D10100681874 /* CALayerMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B4F2A1F90D10100681874 /* CALayerMaskViewController.m */; };
+		2E3D62941F90BC24002391E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D62931F90BC24002391E6 /* ViewController.m */; };
+		2E3D62971F90BDB2002391E6 /* LinearGradientDirectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D62961F90BDB2002391E6 /* LinearGradientDirectionViewController.m */; };
+		2E3D629A1F90BF94002391E6 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D62991F90BF94002391E6 /* UIColor+Extension.m */; };
+		2E3D629D1F90C6C5002391E6 /* CAGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D629C1F90C6C5002391E6 /* CAGradientLayerViewController.m */; };
+		2EC18FF51F90BB1600B138D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC18FF41F90BB1600B138D4 /* AppDelegate.m */; };
+		2EC18FFD1F90BB1600B138D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC18FFC1F90BB1600B138D4 /* Assets.xcassets */; };
+		2EC190001F90BB1600B138D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC18FFE1F90BB1600B138D4 /* LaunchScreen.storyboard */; };
+		2EC190031F90BB1600B138D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC190021F90BB1600B138D4 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E2B4F261F90CA9F00681874 /* CGGradientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGGradientViewController.h; sourceTree = "<group>"; };
+		2E2B4F271F90CA9F00681874 /* CGGradientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGGradientViewController.m; sourceTree = "<group>"; };
+		2E2B4F291F90D10100681874 /* CALayerMaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CALayerMaskViewController.h; sourceTree = "<group>"; };
+		2E2B4F2A1F90D10100681874 /* CALayerMaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayerMaskViewController.m; sourceTree = "<group>"; };
+		2E3D62921F90BC24002391E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E3D62931F90BC24002391E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E3D62951F90BDB2002391E6 /* LinearGradientDirectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearGradientDirectionViewController.h; sourceTree = "<group>"; };
+		2E3D62961F90BDB2002391E6 /* LinearGradientDirectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinearGradientDirectionViewController.m; sourceTree = "<group>"; };
+		2E3D62981F90BF94002391E6 /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		2E3D62991F90BF94002391E6 /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		2E3D629B1F90C6C5002391E6 /* CAGradientLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAGradientLayerViewController.h; sourceTree = "<group>"; };
+		2E3D629C1F90C6C5002391E6 /* CAGradientLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAGradientLayerViewController.m; sourceTree = "<group>"; };
+		2EC18FF01F90BB1600B138D4 /* GradientColorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientColorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC18FF31F90BB1600B138D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EC18FF41F90BB1600B138D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EC18FFC1F90BB1600B138D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EC18FFF1F90BB1600B138D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EC190011F90BB1600B138D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EC190021F90BB1600B138D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EC18FED1F90BB1600B138D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EC18FE71F90BB1600B138D4 = {
+			isa = PBXGroup;
+			children = (
+				2EC18FF21F90BB1600B138D4 /* GradientColorDemo */,
+				2EC18FF11F90BB1600B138D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EC18FF11F90BB1600B138D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EC18FF01F90BB1600B138D4 /* GradientColorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EC18FF21F90BB1600B138D4 /* GradientColorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2EC18FF31F90BB1600B138D4 /* AppDelegate.h */,
+				2EC18FF41F90BB1600B138D4 /* AppDelegate.m */,
+				2E3D62921F90BC24002391E6 /* ViewController.h */,
+				2E3D62931F90BC24002391E6 /* ViewController.m */,
+				2EC18FFC1F90BB1600B138D4 /* Assets.xcassets */,
+				2EC18FFE1F90BB1600B138D4 /* LaunchScreen.storyboard */,
+				2EC190011F90BB1600B138D4 /* Info.plist */,
+				2EC190021F90BB1600B138D4 /* main.m */,
+				2E3D62951F90BDB2002391E6 /* LinearGradientDirectionViewController.h */,
+				2E3D62961F90BDB2002391E6 /* LinearGradientDirectionViewController.m */,
+				2E3D62981F90BF94002391E6 /* UIColor+Extension.h */,
+				2E3D62991F90BF94002391E6 /* UIColor+Extension.m */,
+				2E3D629B1F90C6C5002391E6 /* CAGradientLayerViewController.h */,
+				2E3D629C1F90C6C5002391E6 /* CAGradientLayerViewController.m */,
+				2E2B4F261F90CA9F00681874 /* CGGradientViewController.h */,
+				2E2B4F271F90CA9F00681874 /* CGGradientViewController.m */,
+				2E2B4F291F90D10100681874 /* CALayerMaskViewController.h */,
+				2E2B4F2A1F90D10100681874 /* CALayerMaskViewController.m */,
+			);
+			path = GradientColorDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EC18FEF1F90BB1600B138D4 /* GradientColorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EC190061F90BB1600B138D4 /* Build configuration list for PBXNativeTarget "GradientColorDemo" */;
+			buildPhases = (
+				2EC18FEC1F90BB1600B138D4 /* Sources */,
+				2EC18FED1F90BB1600B138D4 /* Frameworks */,
+				2EC18FEE1F90BB1600B138D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientColorDemo;
+			productName = GradientColorDemo;
+			productReference = 2EC18FF01F90BB1600B138D4 /* GradientColorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EC18FE81F90BB1600B138D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ying;
+				TargetAttributes = {
+					2EC18FEF1F90BB1600B138D4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2EC18FEB1F90BB1600B138D4 /* Build configuration list for PBXProject "GradientColorDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EC18FE71F90BB1600B138D4;
+			productRefGroup = 2EC18FF11F90BB1600B138D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EC18FEF1F90BB1600B138D4 /* GradientColorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EC18FEE1F90BB1600B138D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC190001F90BB1600B138D4 /* LaunchScreen.storyboard in Resources */,
+				2EC18FFD1F90BB1600B138D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EC18FEC1F90BB1600B138D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3D62941F90BC24002391E6 /* ViewController.m in Sources */,
+				2EC190031F90BB1600B138D4 /* main.m in Sources */,
+				2E2B4F2B1F90D10100681874 /* CALayerMaskViewController.m in Sources */,
+				2E2B4F281F90CA9F00681874 /* CGGradientViewController.m in Sources */,
+				2E3D629A1F90BF94002391E6 /* UIColor+Extension.m in Sources */,
+				2E3D62971F90BDB2002391E6 /* LinearGradientDirectionViewController.m in Sources */,
+				2E3D629D1F90C6C5002391E6 /* CAGradientLayerViewController.m in Sources */,
+				2EC18FF51F90BB1600B138D4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EC18FFE1F90BB1600B138D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EC18FFF1F90BB1600B138D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EC190041F90BB1600B138D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EC190051F90BB1600B138D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EC190071F90BB1600B138D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X79899M22;
+				INFOPLIST_FILE = GradientColorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.com.GradientColorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EC190081F90BB1600B138D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X79899M22;
+				INFOPLIST_FILE = GradientColorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.com.GradientColorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EC18FEB1F90BB1600B138D4 /* Build configuration list for PBXProject "GradientColorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC190041F90BB1600B138D4 /* Debug */,
+				2EC190051F90BB1600B138D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EC190061F90BB1600B138D4 /* Build configuration list for PBXNativeTarget "GradientColorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC190071F90BB1600B138D4 /* Debug */,
+				2EC190081F90BB1600B138D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EC18FE81F90BB1600B138D4 /* Project object */;
+}
